@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="home__contact">
+    <section className="home__contact" data-scroll-section>
       <h2>Contact</h2>
       <form action="https://formspree.io/f/xdoqnaab" method="POST">
         <input type="email" name="subject" placeholder="Your Name" />
