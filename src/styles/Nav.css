@@ -1,0 +1,29 @@
+.home__nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  margin: 0 3rem;
+  padding: 0 3rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color);
+}
+
+.home__nav button {
+  background-color: var(--btn-primary);
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--bg-color);
+  padding: 0 1.5rem;
+  margin: 1rem;
+  border-radius: 1.7rem;
+}
+
+.home__nav button:hover {
+  cursor: pointer;
+  background-color: var(--btn-primary-hover);
+  transition: 0.5s;
+}
