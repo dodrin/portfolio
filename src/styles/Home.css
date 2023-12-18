@@ -1,0 +1,38 @@
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home__about {
+  font-size: 2rem;
+  line-height: 1.4;
+  max-width: 60%;
+  height: 100vh;
+}
+
+.home__projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+.home__skills {
+  height: 100%;
+}
+
+.home__skills h2{
+  display: flex;
+  justify-content: center;
+}
+
+.home__skills ul{
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #A67458;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
