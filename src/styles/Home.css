@@ -23,11 +23,36 @@ h2 {
   align-items: flex-start;
 }
 
+.home__hero__one {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+}
+
+.home__hero__two {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .home__about {
   font-size: 2rem;
   line-height: 1.4;
   max-width: 60%;
   height: 100vh;
+}
+
+.home__about__p {
+  opacity: 0;
+  transition: opacity 4s;
+}
+
+.scroll-class {
+  opacity: 1;
 }
 
 .home__projects {

@@ -7,7 +7,7 @@ import './styles/Home.css'
 import './styles/Skills.css'
 import './styles/Contact.css'
 import './styles/Footer.css'
-
+import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
