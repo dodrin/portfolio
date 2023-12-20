@@ -6,7 +6,7 @@ const ScrollContainer = ({children}) => {
     const scroll = new LocomotiveScroll({
       el: document.querySelector('[data-scroll-container]'),
       smooth: true,
-      
+      lerp: 0.06,
     });
 
     return () => {

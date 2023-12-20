@@ -1,6 +1,6 @@
 export default function ProjectsList() {
   return (
-    <section className="home__projects" data-scroll-section>
+    <section className="home__projects">
       <header>
         <h2>Projects</h2>
       </header>
