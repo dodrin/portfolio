@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <header className="home__hero">
+    <header className="home__hero" id="hero">
       {heroes.map((hero, index) => renderHero(hero, index))}
     </header>
   );

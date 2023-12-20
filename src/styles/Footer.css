@@ -27,3 +27,8 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+.home__footer__right button a {
+  text-decoration: none;
+  color: var(--bg-color);
+}

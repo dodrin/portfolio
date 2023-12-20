@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  /* justify-content: flex-end;
+  align-content: flex-start; */
 }
 
 .home__hero span:hover {
