@@ -18,24 +18,9 @@
   border-width: 0;
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2'),
-       url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXiWtFCc.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v22/Qw3aZQNVED7rKGKxtqIqX5EAnx4VRLI.ttf) format('truetype');
-}
-
 body {
   height: 100vh;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--bg-color);
   color: var(--main-font);
 }

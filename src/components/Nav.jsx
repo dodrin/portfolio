@@ -1,8 +1,11 @@
 export default function Nav() {
-  return(
+  
+  return (
     <nav className="home__nav">
-        <h2>Rina Inada</h2>
+      <h2>Rinada</h2>
+      <a href="#contact">
         <button>Contact</button>
+      </a>
     </nav>
-  )
-};
+  );
+}

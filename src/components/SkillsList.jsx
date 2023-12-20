@@ -20,7 +20,7 @@ export default function SkillsList() {
   ));
 
   return (
-    <section className="home__skills" data-scroll-section>
+    <section className="home__skills">
       <h2>Skills</h2>
       <ul>
         {skillsItems}
