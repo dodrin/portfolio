@@ -1,9 +1,16 @@
+import "../styles/Hero.css";
+
 export default function Hero() {
+  const heroes = ["Rina Inada", "Full-Stack", "Developer"];
+
+  const renderHero = (hero, index) => {
+    const heroChars = [...hero].map((char, i) => <span key={i}>{char}</span>);
+    return <h1 key={index}>{heroChars}</h1>;
+  };
+
   return (
     <header className="home__hero">
-      <h1 className="home__hero__one">Hello, I'm Rina.</h1>
-      <h1 className="home__hero__two">Full-Stack</h1>
-      <h1>Developer</h1>
+      {heroes.map((hero, index) => renderHero(hero, index))}
     </header>
   );
 }

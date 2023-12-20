@@ -1,0 +1,12 @@
+.home__hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home__hero span:hover {
+  color: #726659;
+  transition: 0.1s;
+}
