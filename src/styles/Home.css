@@ -1,8 +1,9 @@
 h1 {
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 10rem;
+  font-size: 14rem;
   margin: 0;
+  line-height: 0.9;
 }
 
 h2 {
@@ -15,30 +16,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.home__hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-/* .home__hero__one {
-  opacity: 0;
-  animation: fadeIn 3s forwards;
-}
-
-.home__hero__two {
-  opacity: 0;
-  animation: fadeIn 3s forwards;
-  animation-delay: 1s;
-} */
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
 }
 
 .home__about {

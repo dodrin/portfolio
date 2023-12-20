@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="home__footer__right">
         <span>
           BACK TO{" "}
-          <button id="topBtn" title="Go to top">
-            TOP
+          <button id="topBtn" title="Back to Top">
+            <a href="#hero">TOP</a>
           </button>
         </span>
       </div>
