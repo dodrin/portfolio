@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 2.5rem;
+  /* padding-top: 10rem; */
   /* justify-content: flex-end;
   align-content: flex-start; */
 }

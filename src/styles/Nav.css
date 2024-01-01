@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  margin: 0 3rem;
   padding: 0 3rem;
   width: 100%;
   top: 0;
@@ -11,12 +10,15 @@
 }
 
 .home__nav button {
-  background-color: var(--btn-primary);
-  border: none;
-  font-family: 'Josefin Sans', sans-serif;
+  /* background-color: var(--btn-primary); */
+  background: none;
+  border: 2px solid var(--btn-primary);
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
-  color: var(--bg-color);
+  /* color: var(--bg-color); */
+  color: var(--btn-primary);
   padding: 0.5rem 1.5rem;
   margin: 1rem;
   border-radius: 1.7rem;
@@ -24,6 +26,7 @@
 
 .home__nav button:hover {
   cursor: pointer;
-  background-color: var(--btn-primary-hover);
+  background-color: var(--btn-primary);
+  color: var(--bg-color);
   transition: 0.5s;
 }
