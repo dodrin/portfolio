@@ -1,0 +1,10 @@
+.home__projects article {
+  ul {
+    list-style: none;
+  }
+
+  .screenshot {
+    width: 25rem;
+    height: 100%;
+  }
+}

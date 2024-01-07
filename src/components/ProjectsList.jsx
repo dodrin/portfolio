@@ -1,18 +1,15 @@
+import ProjectsListItem from "./ProjectListItem";
+import projectList from "../constants/projectData";
+
 export default function ProjectsList() {
   return (
     <section className="home__projects">
       <header>
         <h2>Projects</h2>
       </header>
-      <article>
-        <h3>Blanc Canvas</h3>
-        <ul>
-          <li>2023</li>
-          <li>React Express TailwindCSS Supabase</li>
-          <li>Web design</li>
-          <li>Full Stack Development</li>
-        </ul>
-      </article>
+      {projectList.map((project) => (
+        <ProjectsListItem key={project.id} projectItem={project} />
+      ))}
     </section>
   );
 }
