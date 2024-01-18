@@ -1,4 +1,4 @@
-import "../styles/Hero.css";
+import "../../styles/Hero.css";
 
 export default function Hero() {
   const heroes = ["Rina Inada", "Full-Stack", "Developer"];

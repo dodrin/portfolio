@@ -1,5 +1,5 @@
-import ProjectsListItem from "./ProjectListItem";
-import projectList from "../constants/projectData";
+import ProjectsListItem from "../ui/ProjectListItem";
+import projectList from "../../constants/projectData";
 
 export default function ProjectsList() {
   return (

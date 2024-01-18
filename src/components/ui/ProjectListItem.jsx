@@ -1,4 +1,4 @@
-import "../styles/projects.css";
+import "../../styles/Projects.css";
 
 export default function ProjectsListItem(props) {
   const { projectItem } = props;

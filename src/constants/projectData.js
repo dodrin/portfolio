@@ -8,7 +8,7 @@ const projectList = [
   },
   {
     id: 2,
-    titile: "PhotoLabs",
+    title: "PhotoLabs",
     year: 2023,
     stack: [
       "React",
@@ -19,14 +19,14 @@ const projectList = [
       "Postgress",
       "Socket.io",
     ],
-    screenshot: "",
+    screenshot: "/assets/photolabs.png",
   },
   { 
     id:3,
     title: "Tweeter",
     year: 2023,
     stack: ["HTML", "CSS", "jQuery", "Ajax", "Node", "Express"],
-    screenshot: "",
+    screenshot: "/assets/tweeter.png",
   },
 ];
 
