@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import "./App.css";
-import Nav from "./components/Nav";
-import SkillsList from "./components/SkillsList";
-import ProjectsList from "./components/ProjectsList";
-import Contact from "./components/Contact";
-import Social from "./components/Social";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import About from "./components/About";
+import Nav from "./components/homepage/Nav";
+import SkillsList from "./components/homepage/SkillsList";
+import ProjectsList from "./components/homepage/ProjectsList";
+import Contact from "./components/homepage/Contact";
+import Social from "./components/homepage/Social";
+import Footer from "./components/homepage/Footer";
+import Hero from "./components/homepage/Hero";
+import About from "./components/homepage/About";
 import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
