@@ -1,18 +1,39 @@
 .home__skills {
   height: 100%;
-}
-
-.home__skills h2{
-  display: flex;
-  justify-content: center;
-}
-
-.home__skills ul{
-  font-size: 4rem;
-  font-weight: 500;
-  color: #A67458;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  list-style: none;
+  align-items: center;
+  
+  p {
+    max-width: 60%;
+    line-height: 2;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #A67458;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
+    li {
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+    }
+
+    li:hover {
+      color: var(--btn-primary-hover);
+    }
+  }
 }
