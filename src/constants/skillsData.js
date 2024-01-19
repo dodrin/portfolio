@@ -5,7 +5,7 @@ export const skills = [
   "Ruby",
   "PostgreSQL",
   "React",
-  "Node.js",
+  "Nodejs",
   "jQuery",
   "Rails",
   "Bootstrap",
