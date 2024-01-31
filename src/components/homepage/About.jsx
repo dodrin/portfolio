@@ -11,8 +11,6 @@ export default function About() {
         </p>
 
         <p>When I'm not coding, I love going on outdoor adventures ⛷🧗‍♀️🥾🚵‍♀️</p>
-
-        <p>Let's create something great together!</p>
       </div>
     </section>
   );

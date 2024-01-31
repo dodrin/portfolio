@@ -1,7 +1,7 @@
 import "../../styles/Hero.css";
 
 export default function Hero() {
-  const heroes = ["Rina Inada", "Full-Stack", "Developer"];
+  const heroes = ["Hello,", "I'm Rina", "Full-Stack Developer"];
 
   const renderHero = (hero, index) => {
     const heroChars = [...hero].map((char, i) => <span key={i}>{char}</span>);

@@ -21,7 +21,7 @@ h2 {
 .home__about {
   font-size: 2rem;
   line-height: 1.4;
-  max-width: 60%;
+  text-align: left;
   height: 100vh;
 }
 

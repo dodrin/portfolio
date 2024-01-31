@@ -15,7 +15,8 @@ export default function SkillsList() {
       <p align="center">
         <img
           src={`https://skillicons.dev/icons?i=${skillsString}`}
-          alt="skills icons"
+          alt="skills icon"
+          className="skills-icon"
         />
       </p>
     </section>
