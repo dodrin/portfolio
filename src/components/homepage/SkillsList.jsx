@@ -12,13 +12,7 @@ export default function SkillsList() {
         technologies that could expand my skill set, enhance my problem-solving
         capabilities, and keep me at the forefront of industry trends.
       </p>
-      <p align="center">
-        <img
-          src={`https://skillicons.dev/icons?i=${skillsString}`}
-          alt="skills icon"
-          className="skills-icon"
-        />
-      </p>
+      
     </section>
   );
 }

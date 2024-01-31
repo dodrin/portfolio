@@ -1,9 +1,6 @@
 .home__nav {
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  padding: 0 2rem;
-  width: 100%;
   top: 0;
   left: 0;
   background-color: var(--bg-color);

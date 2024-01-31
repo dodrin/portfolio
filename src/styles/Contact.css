@@ -13,20 +13,20 @@
 }
 
 .home__contact form label {
-  margin: 1rem;
+  margin: 0.5rem;
   border: none;
 }
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 24rem;
+  margin: 4rem auto 100px auto;
 }
 
 input {
   font-size: 0.9rem;
-  width: 470px;
-  height: 50px;
+  width: 24rem;
+  height: 2.8rem;
   padding: 0px 15px 0px 15px;
   margin: 0.5rem;
   
@@ -49,11 +49,11 @@ input:hover {
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
-  height: 110px;
-  max-height: 110px;
-  padding: 15px;
+  width: 24rem;
+  max-width: 32rem;
+  height: 7rem;
+  max-height: 7rem;
+  padding: 1rem;
   margin: 0.5rem;
   
   background: transparent;
@@ -78,7 +78,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 470px;
+  width: 24rem;
   
   padding: 0;
   margin: 0.5rem;
