@@ -5,7 +5,11 @@ export default function ProjectsListItem(props) {
 
   return (
     <article>
-      <img src={projectItem.screenshot} className="screenshot"/>
+      <img
+        src={projectItem.screenshot}
+        alt={projectItem.title}
+        className="screenshot"
+      />
       <h3>{projectItem.title}</h3>
       <ul>
         <li>{projectItem.year}</li>

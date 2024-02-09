@@ -21,9 +21,11 @@ h2 {
 }
 
 .home__about {
-  font-size: 2rem;
+  padding: 2rem;
+  font-size: 1.4rem;
   line-height: 1.4;
   text-align: left;
+  
 }
 
 .scroll-class {
