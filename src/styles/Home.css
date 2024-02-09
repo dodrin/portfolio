@@ -16,13 +16,16 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100dvw;
+  overflow-wrap: break-word;
 }
 
 .home__about {
-  font-size: 2rem;
+  padding: 2rem;
+  font-size: 1.4rem;
   line-height: 1.4;
-  max-width: 60%;
-  height: 100vh;
+  text-align: left;
+  
 }
 
 .scroll-class {

@@ -1,10 +1,16 @@
 .home__projects article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border: 1px var(--btn-primary) solid;
+
   ul {
     list-style: none;
   }
 
   .screenshot {
-    width: 25rem;
+    width: 20rem;
     height: 100%;
   }
 }
+

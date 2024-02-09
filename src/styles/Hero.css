@@ -1,19 +1,21 @@
 .home__hero {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 2.5rem;
-  /* padding-top: 10rem; */
-  /* justify-content: flex-end;
-  align-content: flex-start; */
-}
+  text-align: left;
+  margin-top: 4rem;
+  padding: 0 2rem;
 
-.home__hero span:hover {
-  color: #726659;
-  transition: all 0.1s ease-in-out;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
+  h1 {
+    font-size: 5rem;
+  }
+
+
+  span:hover {
+    color: #726659;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+  }
+
 }

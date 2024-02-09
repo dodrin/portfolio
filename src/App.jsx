@@ -37,7 +37,6 @@ function App() {
         <Hero />
       </div>
       <div>
-        
         <main className="home">
           <About />
           <SkillsList />
@@ -47,7 +46,6 @@ function App() {
         </main>
         <Footer />
       </div>
-      
     </>
   );
 }
