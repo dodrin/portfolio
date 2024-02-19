@@ -4,8 +4,9 @@ const projectList = [
     title: "Blanc Canvas",
     year: 2023,
     stack: ["React", "Express", "TailwindCSS", "Supabase"],
-    screenshot: "/assets/BlancCanvas.png",
-    github: "https://github.com/dodrin/BlancCanvas"
+    img: "/assets/BlancCanvas.png",
+    github: "https://github.com/dodrin/BlancCanvas",
+    preview: "https://blanc-canvas.vercel.app/"
   },
   {
     id: 2,
@@ -20,7 +21,7 @@ const projectList = [
       "Postgress",
       "Socket.io",
     ],
-    screenshot: "/assets/photolabs.png",
+    img: "/assets/photolabs.png",
     github: "https://github.com/dodrin/photolabs",
   },
   { 
@@ -28,7 +29,7 @@ const projectList = [
     title: "Tweeter",
     year: 2023,
     stack: ["HTML", "CSS", "jQuery", "Ajax", "Node", "Express"],
-    screenshot: "/assets/tweeter.png",
+    img: "/assets/tweeter.png",
     github: "https://github.com/dodrin/tweeter"
   },
 ];
