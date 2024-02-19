@@ -7,7 +7,7 @@ export default function ProjectsListItem(props) {
   const { projectItem } = props;
 
   return (
-    <div>
+    <article>
       <div>
         <img
           src={projectItem.img}
@@ -15,24 +15,31 @@ export default function ProjectsListItem(props) {
           className="screenshot"
         />
       </div>
+
       <div>
         <h3>{projectItem.title}</h3>
-        <a href={projectItem.github} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} size="xl" />
-        </a>
-
-        {projectItem.preview ? (
+        <div className="icon-container">
           <a
-            href={projectItem.preview}
+            href={projectItem.github}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGlobe} size="xl" />
+            <FontAwesomeIcon icon={faGithub} size="xl" className="icon" />
           </a>
-        ) : (
-          <div></div>
-        )}
+
+          {projectItem.preview ? (
+            <a
+              href={projectItem.preview}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGlobe} size="xl" className="icon" />
+            </a>
+          ) : (
+            <div></div>
+          )}
+        </div>
       </div>
-    </div>
+    </article>
   );
 }

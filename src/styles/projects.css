@@ -1,7 +1,42 @@
-.home__projects div {
-  .screenshot {
-    width: 20rem;
-    height: 100%;
+.home__projects {
+  .swiper {
+    width: 70%;
+    height: 25rem;
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: var(--btn-primary);
+    }
+  }
+
+  article {
+    padding: 2rem;
+    
+    border: solid 3px var(--contact-form);
+    border-radius: 1.7rem;
+
+    .screenshot {
+      width: 20rem;
+      height: 100%;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .icon-container {
+        .icon {
+          color: var(--btn-primary);
+          margin: 0.5rem;
+        }
+      }
+    }
   }
 }
 

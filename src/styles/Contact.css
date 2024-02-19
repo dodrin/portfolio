@@ -1,20 +1,21 @@
 .home__contact {
   margin: 1.5rem;
-}
 
-.home__contact h2{
-  display: flex;
-  justify-content: center;
-}
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
 
-.home__contact form {
-  display: flex;
-  flex-direction: column;
-}
+  form {
+    display: flex;
+    flex-direction: column;
 
-.home__contact form label {
-  margin: 0.5rem;
-  border: none;
+    label {
+      margin: 0.5rem;
+      border: none;
+    }
+  }
+
 }
 
 #form {
