@@ -8,16 +8,14 @@ export default function ProjectsListItem(props) {
 
   return (
     <article>
+      <h3>{projectItem.title}</h3>
       <div>
         <img
           src={projectItem.img}
           alt={projectItem.title}
           className="screenshot"
         />
-      </div>
 
-      <div>
-        <h3>{projectItem.title}</h3>
         <div className="icon-container">
           <a
             href={projectItem.github}

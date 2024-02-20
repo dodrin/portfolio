@@ -3,7 +3,6 @@
 
   .swiper {
     width: 90%;
-    max-width: 45rem;
     height: 25rem;
 
     .swiper-slide {
@@ -18,32 +17,36 @@
   }
 
   article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 2rem;
     border: solid 3px var(--contact-form);
     border-radius: 1.7rem;
 
     .screenshot {
-      width: 10rem;
-      height: 100%;
+      width: 13rem;
     }
 
-    div {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .icon-container {
-        .icon {
-          color: var(--btn-primary);
-          margin: 0.5rem;
-        }
+    .icon-container {
+      .icon {
+        color: var(--btn-primary);
+        margin: 0.5rem;
       }
     }
   }
 }
 
-@media only screen and (min-width: 450px) {
-  .screenshot {
-    width: 25rem;
-  }
+@media only screen and (min-width: 430px) {
+  .home__projects {
+    .swiper {
+      width: 80%;
+    }
+    article {
+      .screenshot {
+        width: 50%;
+        max-width: 500px;
+      }
+    }
+  }  
 }
