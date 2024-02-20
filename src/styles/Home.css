@@ -21,6 +21,8 @@ h2 {
 }
 
 .home__about {
+  background-color: var(--main-font);
+  color: var(--bg-color);
   padding: 2rem;
   font-size: 1.4rem;
   line-height: 1.4;

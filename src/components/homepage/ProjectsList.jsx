@@ -2,7 +2,7 @@ import ProjectsListItem from "../ui/ProjectListItem";
 import projectList from "../../constants/projectData";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Keyboard } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -18,12 +18,12 @@ export default function ProjectsList() {
       </header>
       <Swiper
         slidesPerView={'auto'}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
         navigation
-        modules={[Navigation]}
+        modules={[Navigation, Keyboard]}
+        keyboard={{
+          enabled: true,
+        }}
+
       >
         {projectList.map((project) => (
           <SwiperSlide key={project.id}>

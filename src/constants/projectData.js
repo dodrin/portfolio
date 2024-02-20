@@ -6,31 +6,23 @@ const projectList = [
     stack: ["React", "Express", "TailwindCSS", "Supabase"],
     img: "/assets/BlancCanvas.png",
     github: "https://github.com/dodrin/BlancCanvas",
-    preview: "https://blanc-canvas.vercel.app/"
+    preview: "https://blanc-canvas.vercel.app/",
   },
   {
     id: 2,
     title: "PhotoLabs",
     year: 2023,
-    stack: [
-      "React",
-      "Axios",
-      "Webpack",
-      "Express",
-      "Node",
-      "Postgress",
-      "Socket.io",
-    ],
+    stack: ["React", "Webpack", "Express", "Node", "Postgress", "Socket.io"],
     img: "/assets/photolabs.png",
     github: "https://github.com/dodrin/photolabs",
   },
-  { 
-    id:3,
+  {
+    id: 3,
     title: "Tweeter",
     year: 2023,
-    stack: ["HTML", "CSS", "jQuery", "Ajax", "Node", "Express"],
+    stack: ["HTML", "CSS", "jQuery", "Node", "Express"],
     img: "/assets/tweeter.png",
-    github: "https://github.com/dodrin/tweeter"
+    github: "https://github.com/dodrin/tweeter",
   },
 ];
 
