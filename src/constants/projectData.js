@@ -12,7 +12,7 @@ const projectList = [
     id: 2,
     title: "PhotoLabs",
     year: 2023,
-    stack: ["React", "Webpack", "Express", "Node", "Postgress", "Socket.io"],
+    stack: ["React", "Express", "Node", "PostgresSQL"],
     img: "/assets/photolabs.png",
     github: "https://github.com/dodrin/photolabs",
   },

@@ -7,9 +7,8 @@ export default function ProjectsListItem(props) {
   const { projectItem } = props;
 
   return (
-    <article>
-      <h3>{projectItem.title}</h3>
-      <div className="project__container">
+    // <article>
+      <article>
         <img
           src={projectItem.img}
           alt={projectItem.title}
@@ -23,7 +22,7 @@ export default function ProjectsListItem(props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} size="2xl" className="icon" />
+              <FontAwesomeIcon icon={faGithub} size="xl" className="icon" />
             </a>
 
             {projectItem.preview ? (
@@ -32,15 +31,19 @@ export default function ProjectsListItem(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faGlobe} size="2xl" className="icon" />
+                <FontAwesomeIcon icon={faGlobe} size="xl" className="icon" />
               </a>
             ) : (
               <div></div>
             )}
           </div>
-          <div className="project__year">{projectItem.year}</div>
+          <div className="project__links--year">{projectItem.year}</div>
         </div>
-      </div>
-    </article>
+        <h3>{projectItem.title}</h3>
+        <div className="project__tech">
+          {projectItem.stack.map((data) => <div className="project__tech--item">{data}</div>)}
+        </div>
+      </article>
+    // </article>
   );
 }
