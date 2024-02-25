@@ -1,14 +1,17 @@
-h1 {
-  /* font-family: 'Josefin Sans', sans-serif; */
+h1, h2, h3 {
   font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+h1 {
   font-size: 14rem;
   margin: 0;
   line-height: 0.9;
 }
 
 h2 {
-  font-size: 2rem;
-  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
 }
 
 .home {
@@ -21,6 +24,8 @@ h2 {
 }
 
 .home__about {
+  background-color: var(--main-font);
+  color: var(--bg-color);
   padding: 2rem;
   font-size: 1.4rem;
   line-height: 1.4;

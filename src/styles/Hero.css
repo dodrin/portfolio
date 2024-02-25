@@ -1,14 +1,17 @@
 .home__hero {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 100vh;
   text-align: left;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   padding: 0 2rem;
 
   h1 {
     font-size: 5rem;
+    line-height: 1.2;
   }
-
 
   span:hover {
     color: #726659;

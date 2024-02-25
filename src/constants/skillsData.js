@@ -1,15 +1,14 @@
-export const skills = [
+export const frontend = [
   "Javascript",
-  "HTML",
-  "CSS",
-  "Ruby",
-  "PostgreSQL",
   "React",
-  "Nodejs",
   "jQuery",
-  "Rails",
+  "SASS",
   "Bootstrap",
   "TailwindCSS",
-  "Supabase",
-  "Figma",
 ];
+
+export const backend = ["NodeJS", "Express", "Rails"];
+
+export const testing = ["Mocha", "Chai", "Jest", "Cypress"];
+
+export const others = ["SQL", "Supabase", "Git", "Figma"];

@@ -1,5 +1,14 @@
 import ProjectsListItem from "../ui/ProjectListItem";
 import projectList from "../../constants/projectData";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Keyboard } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export default function ProjectsList() {
   return (
@@ -7,9 +16,21 @@ export default function ProjectsList() {
       <header>
         <h2>Projects</h2>
       </header>
-      {projectList.map((project) => (
-        <ProjectsListItem key={project.id} projectItem={project} />
-      ))}
+      <Swiper
+        slidesPerView={'auto'}
+        navigation
+        modules={[Navigation, Keyboard]}
+        keyboard={{
+          enabled: true,
+        }}
+
+      >
+        {projectList.map((project) => (
+          <SwiperSlide key={project.id}>
+            <ProjectsListItem projectItem={project}/>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </section>
   );
 }
