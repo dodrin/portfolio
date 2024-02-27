@@ -1,5 +1,5 @@
 .home__skills {
-  height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,14 +29,35 @@
 
   .tab-content {
     width: 20rem;
-    height: 10rem;
-    padding: 2rem;
+    height: 14rem;
+    padding: 1rem;
     margin: 1rem;
-    font-size: 1.2rem;
-    word-spacing: 1.2;
 
     border: solid 3px var(--contact-form);
     border-radius: 1.7rem;
+
+  
+    .tab-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .icon-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5rem;
+      svg {
+        width: 3rem;
+        height: 100%;
+      }
+    }
+    }
+    
+
+    
+
   }
 }
 
@@ -47,7 +68,7 @@
         padding: 1rem 3rem;
         border-radius: 1.5rem;
         font-size: 1.1rem;
-        margin:0.7rem;
+        margin: 0.7rem;
       }
     }
 

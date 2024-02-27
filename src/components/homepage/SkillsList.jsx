@@ -1,14 +1,19 @@
 import { useState } from "react";
-import { frontend, backend, testing, others } from '../../constants/skillsData';
+import {
+  frontend,
+  backend,
+  testing,
+  others,
+} from "../../constants/frontend";
 
 export default function SkillsList() {
   const [activeTab, setActiveTab] = useState(0);
 
   const categories = [
-    { label: 'Frontend', items: frontend },
-    { label: 'Backend', items: backend },
-    { label: 'Testing', items: testing },
-    { label: 'Others', items: others },
+    { label: "Frontend", items: frontend },
+    { label: "Backend", items: backend },
+    { label: "Testing", items: testing },
+    { label: "Others", items: others },
   ];
 
   const handleButtonClick = (index) => {
@@ -27,15 +32,36 @@ export default function SkillsList() {
       <div>
         <div className="tab-buttons">
           {categories.map((category, index) => (
-            <button key={index} onClick={() => handleButtonClick(index)}>
+            <button
+              key={index}
+              onClick={() => handleButtonClick(index)}
+              className="tab-button"
+              style={{
+                backgroundColor: activeTab === index ? "#A65958" : "#C39680",
+              }}
+            >
               {category.label}
             </button>
           ))}
         </div>
+
         <div className="tab-content">
           {categories.map((category, index) => (
-            <div key={index} style={{ display: activeTab === index ? 'block' : 'none' }}>
-              {category.items.join(', ')}
+            <div
+              key={index}
+              style={{ display: activeTab === index ? "flex" : "none" }}
+              className="tab-container"
+            >
+              {/* Render icons for each item */}
+              {category.items.map((item, itemIndex) => (
+                <div key={itemIndex} className="icon-container">
+                  {/* Render icon */}
+                  {item.icon}
+
+                  {/* Render item name */}
+                  <span>{item.name}</span>
+                </div>
+              ))}
             </div>
           ))}
         </div>
