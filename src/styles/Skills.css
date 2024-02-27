@@ -32,32 +32,27 @@
     height: 14rem;
     padding: 1rem;
     margin: 1rem;
-
     border: solid 3px var(--contact-form);
-    border-radius: 1.7rem;
+    border-radius: 1.7rem;    
+  }
 
-  
-    .tab-container {
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+  .tab-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-      .icon-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 0.5rem;
-      svg {
-        width: 3rem;
-        height: 100%;
-      }
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+
+    svg {
+      width: 3em;
+      height: 100%;
     }
-    }
-    
-
-    
-
   }
 }
 
@@ -75,16 +70,11 @@
     .tab-content {
       width: 42rem;
       height: 20rem;
-      font-size: 1.7rem;
+      font-size: 1.5rem;
+    }
 
-      .tab-container {
-        .icon-container {
-          margin: 1.4rem;
-          svg {
-            width: 4.5rem;
-          }
-        }
-      }
+    .icon-container {
+      margin: 1.4rem;
     }
   }
 }
