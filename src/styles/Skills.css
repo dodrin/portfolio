@@ -74,7 +74,17 @@
 
     .tab-content {
       width: 42rem;
+      height: 20rem;
       font-size: 1.7rem;
+
+      .tab-container {
+        .icon-container {
+          margin: 1.4rem;
+          svg {
+            width: 4.5rem;
+          }
+        }
+      }
     }
   }
 }
