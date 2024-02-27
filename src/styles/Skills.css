@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
 
-  
   p {
     max-width: 80%;
     line-height: 2;
@@ -14,5 +13,47 @@
   h2 {
     display: flex;
     justify-content: center;
+  }
+
+  .tab-buttons {
+    button {
+      background-color: var(--btn-primary);
+      border-radius: 1rem;
+      padding: 0.3rem 0.7rem;
+      margin: 0.3rem;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  .tab-content {
+    width: 20rem;
+    height: 10rem;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    word-spacing: 1.2;
+
+    border: solid 3px var(--contact-form);
+    border-radius: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .home__skills {
+    .tab-buttons {
+      button {
+        padding: 1rem 3rem;
+        border-radius: 1.5rem;
+        font-size: 1.1rem;
+        margin:0.7rem;
+      }
+    }
+
+    .tab-content {
+      width: 42rem;
+      font-size: 1.7rem;
+    }
   }
 }
