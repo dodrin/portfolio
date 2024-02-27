@@ -1,10 +1,8 @@
 import { useState } from "react";
-import {
-  frontend,
-  backend,
-  testing,
-  others,
-} from "../../constants/frontend";
+import { frontend } from "../../constants/frontend";
+import { backend } from "../../constants/backend";
+import { testing } from "../../constants/testing";
+import { others } from "../../constants/others";
 
 export default function SkillsList() {
   const [activeTab, setActiveTab] = useState(0);
