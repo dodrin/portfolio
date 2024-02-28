@@ -1,6 +1,7 @@
 .home__nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   padding: 1rem;
   width: 100%;
@@ -9,8 +10,9 @@
   background-color: var(--bg-color);
   z-index: 99;
 
-  button {
+  a {
     background: none;
+    text-decoration: none;
     border: 2px solid var(--btn-primary);
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.2rem;
@@ -21,10 +23,10 @@
     border-radius: 1.7rem;
   }
 
-  button:hover {
+  a:hover {
     cursor: pointer;
     background-color: var(--btn-primary);
     color: var(--bg-color);
     transition: 0.5s;
-  } 
+  }
 }
