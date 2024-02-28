@@ -29,7 +29,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
     padding: 1.5rem 1rem;
     border: solid 3px var(--contact-form);
     border-radius: 1.7rem;
@@ -72,10 +71,7 @@
 
     h3 {
       margin: 0;
-      /* font-family: 'Bebas Neue', sans-serif; */
       font-size: 1.6rem;
-      /* word-spacing: 10px;
-      letter-spacing: 1px; */
     }
 
     .project__tech {
@@ -104,7 +100,6 @@
     }
 
     article {
-      /* width: 80%; */
       .screenshot {
         width: 25rem;
       }
