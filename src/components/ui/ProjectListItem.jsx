@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import "../../styles/Projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -47,3 +48,14 @@ export default function ProjectsListItem(props) {
     </article>
   );
 }
+
+ProjectsListItem.propTypes = {
+  projectItem: PropTypes.shape({
+    img: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    github: PropTypes.string.isRequired,
+    preview: PropTypes.string,
+    year: PropTypes.number.isRequired,
+    stack: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
+};
