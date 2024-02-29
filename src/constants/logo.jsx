@@ -1,4 +1,6 @@
-export default function Logo({color}) {
+export default function Logo() {
+  const color = "#A65958";
+  
   return (
     <svg
       width="50"
