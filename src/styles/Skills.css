@@ -27,13 +27,15 @@
     }
   }
 
+  
+
   .tab-content {
     width: 20rem;
     height: 14rem;
     padding: 1rem;
     margin: 1rem;
     border: solid 3px var(--contact-form);
-    border-radius: 1.7rem;    
+    border-radius: 1.7rem;
   }
 
   .tab-container {
