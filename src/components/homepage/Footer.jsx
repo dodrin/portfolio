@@ -1,4 +1,11 @@
 export default function Footer() {
+  const handleScrollToTop = () => {
+    const heroSection = document.getElementById('hero');
+    if (heroSection) {
+      heroSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="home__footer">
       <div className="home__footer__left">
@@ -9,9 +16,9 @@ export default function Footer() {
 
       <div className="home__footer__right">
         <span>
-          BACK TO{" "}
-          <button id="topBtn" title="Back to Top">
-            <a href="#hero">TOP</a>
+          BACK TO{' '}
+          <button id="topBtn" title="Back to Top" onClick={handleScrollToTop}>
+            TOP
           </button>
         </span>
       </div>
