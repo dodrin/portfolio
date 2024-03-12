@@ -24,7 +24,20 @@
       font-family: "Josefin Sans", sans-serif;
       font-size: 1rem;
       cursor: pointer;
-      color: var(--bg-color);
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #d7a393;
+    }
+
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .active {
+      background-color: #A65958;
     }
   }
 
