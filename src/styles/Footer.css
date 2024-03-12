@@ -40,6 +40,12 @@
   }
 }
 
+.email {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
 @media only screen and (min-width: 1279px) {
   .home__footer__center {
     button {

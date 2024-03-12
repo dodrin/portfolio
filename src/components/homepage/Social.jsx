@@ -24,6 +24,7 @@ export default function Social() {
           Discord
         </a>
       </div>
+      <p className="email">Email: hello.rinainada@gmail.com</p>
     </section>
   );
 }
