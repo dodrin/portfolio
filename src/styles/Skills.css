@@ -18,17 +18,17 @@
   .tab-buttons {
     button {
       background-color: var(--btn-primary);
+      color: var(--bg-color);
       border-radius: 1rem;
       padding: 0.3rem 0.7rem;
       margin: 0.3rem;
       font-family: "Josefin Sans", sans-serif;
       font-size: 1rem;
       cursor: pointer;
-      transition: background-color 0.3s ease;
     }
 
     button:hover {
-      background-color: #d7a393;
+      border-bottom: 2px solid var(--main-font);
     }
 
     button:focus {

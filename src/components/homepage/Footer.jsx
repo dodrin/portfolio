@@ -12,8 +12,6 @@ export default function Footer() {
         <p>&copy; 2024 Rina.I | Designed with 💖</p>
       </div>
 
-      <p>Email: hello.rinainada@gmail.com</p>
-
       <div className="home__footer__right">
         <span>
           BACK TO{' '}
