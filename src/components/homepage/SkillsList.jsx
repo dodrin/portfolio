@@ -6,6 +6,7 @@ import { others } from "../../constants/others";
 
 export default function SkillsList() {
   const [activeTab, setActiveTab] = useState(0);
+  const [hoveredTab, setHoveredTab] = useState(null);
 
   const categories = [
     { label: "Frontend", items: frontend },
@@ -16,6 +17,14 @@ export default function SkillsList() {
 
   const handleButtonClick = (index) => {
     setActiveTab(index);
+  };
+
+  const handleMouseEnter = (index) => {
+    setHoveredTab(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredTab(null);
   };
 
   return (
@@ -33,10 +42,10 @@ export default function SkillsList() {
             <button
               key={index}
               onClick={() => handleButtonClick(index)}
-              className="tab-button"
-              style={{
-                backgroundColor: activeTab === index ? "#A65958" : "#C39680",
-              }}
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={handleMouseLeave}
+              className={`tab-button ${activeTab === index ? "active" : ""}`}
+              tabIndex={0}
             >
               {category.label}
             </button>
