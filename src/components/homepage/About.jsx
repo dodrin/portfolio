@@ -3,7 +3,7 @@ export default function About() {
     <section className="home__about">
       <div className="home__about__wrapper">
         <h2>About Me.</h2>
-
+    
         <p className="home__about__p">
           Hi, I'm a Full-Stack developer in Victoria, BC. I am passionate about
           clean design and problem-solving. I'm on a continuous learning journey
