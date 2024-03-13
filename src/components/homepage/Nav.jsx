@@ -1,12 +1,19 @@
 import Logo from "../../constants/logo";
 
 export default function Nav() {
+  const handleScrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className="home__nav">
       <Logo className="nav-logo" />
-      <div className="nav-menu">
-        <a href="#contact">Contact</a>
-      </div>
+      <button className="nav-menu" onClick={handleScrollToContact}>
+        Contact
+      </button>
     </nav>
   );
 }
