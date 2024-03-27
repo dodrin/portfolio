@@ -19,6 +19,14 @@ const projectList = [
   },
   {
     id: 3,
+    title: "Luxedrive",
+    year: 2024,
+    stack: ["HTML", "CSS"],
+    img: "/assets/luxedrive.jpeg",
+    preview: "https://luxedrive.vercel.app/"
+  },
+  {
+    id: 4,
     title: "PhotoLabs",
     year: 2023,
     stack: ["React", "Express", "Node", "PostgresSQL"],
@@ -26,7 +34,7 @@ const projectList = [
     github: "https://github.com/dodrin/photolabs",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tweeter",
     year: 2023,
     stack: ["HTML", "CSS", "jQuery", "Node", "Express"],
