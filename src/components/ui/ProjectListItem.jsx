@@ -53,7 +53,7 @@ ProjectsListItem.propTypes = {
   projectItem: PropTypes.shape({
     img: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    github: PropTypes.string.isRequired,
+    github: PropTypes.string,
     preview: PropTypes.string,
     year: PropTypes.number.isRequired,
     stack: PropTypes.arrayOf(PropTypes.string).isRequired,

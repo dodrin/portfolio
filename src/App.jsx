@@ -9,7 +9,6 @@ import Hero from "./components/homepage/Hero";
 import About from "./components/homepage/About";
 
 function App() {
-  
   return (
     <>
       <div>
